@@ -1,4 +1,4 @@
-# 🎾 Padel Game Analytics — Shot Classification System
+# Padel Game Analytics — Shot Classification System
 
 
 ---
