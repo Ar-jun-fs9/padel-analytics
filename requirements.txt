@@ -1,0 +1,19 @@
+# Padel Game Analytics — Requirements
+# Core
+opencv-python>=4.8.0
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Detection (YOLOv8)
+ultralytics>=8.0.0
+
+# Dashboard
+flask>=3.0.0
+
+# Visualization / Plotting
+matplotlib>=3.7.0
+
+# Optional: GPU support
+# torch>=2.0.0
+# torchvision>=0.15.0
