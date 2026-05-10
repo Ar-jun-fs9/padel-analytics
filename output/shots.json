@@ -1,0 +1,418 @@
+{
+  "metadata": {
+    "video": "input_sample_video.mp4",
+    "processed_at": "2026-05-10T13:09:16.373682",
+    "total_frames": 8125,
+    "fps": 25.0,
+    "total_shots": 27
+  },
+  "summary": {
+    "total_shots": 27,
+    "shot_counts": {
+      "SMASH": 17,
+      "VOLLEY": 5,
+      "FOREHAND": 2,
+      "BACKHAND": 3
+    },
+    "shot_percentages": {
+      "SMASH": 63.0,
+      "VOLLEY": 18.5,
+      "FOREHAND": 7.4,
+      "BACKHAND": 11.1
+    },
+    "total_bounces": 23,
+    "total_frames_processed": 8124,
+    "num_rallies": 3,
+    "avg_rally_length_frames": 118.7,
+    "player_stats": {
+      "player_13": {
+        "shot_counts": {
+          "SMASH": 1
+        },
+        "total": 1
+      },
+      "player_12": {
+        "shot_counts": {
+          "VOLLEY": 1
+        },
+        "total": 1
+      },
+      "player_59": {
+        "shot_counts": {
+          "SMASH": 1
+        },
+        "total": 1
+      },
+      "player_97": {
+        "shot_counts": {
+          "SMASH": 1
+        },
+        "total": 1
+      },
+      "player_116": {
+        "shot_counts": {
+          "FOREHAND": 1
+        },
+        "total": 1
+      },
+      "player_131": {
+        "shot_counts": {
+          "VOLLEY": 1
+        },
+        "total": 1
+      },
+      "player_137": {
+        "shot_counts": {
+          "SMASH": 2
+        },
+        "total": 2
+      },
+      "player_143": {
+        "shot_counts": {
+          "FOREHAND": 1
+        },
+        "total": 1
+      },
+      "player_146": {
+        "shot_counts": {
+          "SMASH": 1
+        },
+        "total": 1
+      },
+      "player_144": {
+        "shot_counts": {
+          "SMASH": 11,
+          "VOLLEY": 3,
+          "BACKHAND": 3
+        },
+        "total": 17
+      }
+    }
+  },
+  "shots": [
+    {
+      "frame": 336,
+      "timestamp": 13.44,
+      "shot_type": "SMASH",
+      "player_id": 13,
+      "confidence": 0.95,
+      "ball_x": 541.8,
+      "ball_y": 497.1,
+      "ball_speed": 209.24,
+      "direction": "right",
+      "player_side": "left_court"
+    },
+    {
+      "frame": 542,
+      "timestamp": 21.68,
+      "shot_type": "VOLLEY",
+      "player_id": 12,
+      "confidence": 0.95,
+      "ball_x": 813.9,
+      "ball_y": 442.7,
+      "ball_speed": 190.64,
+      "direction": "right",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 3042,
+      "timestamp": 121.68,
+      "shot_type": "SMASH",
+      "player_id": 59,
+      "confidence": 0.95,
+      "ball_x": 974.4,
+      "ball_y": 439.6,
+      "ball_speed": 206.25,
+      "direction": "up",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 4578,
+      "timestamp": 183.12,
+      "shot_type": "SMASH",
+      "player_id": 97,
+      "confidence": 0.95,
+      "ball_x": 814.2,
+      "ball_y": 446.6,
+      "ball_speed": 77.79,
+      "direction": "right",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 5246,
+      "timestamp": 209.84,
+      "shot_type": "FOREHAND",
+      "player_id": 116,
+      "confidence": 0.95,
+      "ball_x": 794.3,
+      "ball_y": 456.3,
+      "ball_speed": 187.29,
+      "direction": "left",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 5928,
+      "timestamp": 237.12,
+      "shot_type": "VOLLEY",
+      "player_id": 131,
+      "confidence": 0.95,
+      "ball_x": 865.5,
+      "ball_y": 506.2,
+      "ball_speed": 212.23,
+      "direction": "right",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 6478,
+      "timestamp": 259.12,
+      "shot_type": "SMASH",
+      "player_id": 137,
+      "confidence": 0.95,
+      "ball_x": 1061.0,
+      "ball_y": 647.8,
+      "ball_speed": 76.78,
+      "direction": "left",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 6516,
+      "timestamp": 260.64,
+      "shot_type": "SMASH",
+      "player_id": 137,
+      "confidence": 0.95,
+      "ball_x": 1004.6,
+      "ball_y": 654.6,
+      "ball_speed": 110.13,
+      "direction": "left",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 6662,
+      "timestamp": 266.48,
+      "shot_type": "FOREHAND",
+      "player_id": 143,
+      "confidence": 0.903,
+      "ball_x": 808.6,
+      "ball_y": 669.2,
+      "ball_speed": 16.13,
+      "direction": "right",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 6814,
+      "timestamp": 272.56,
+      "shot_type": "SMASH",
+      "player_id": 146,
+      "confidence": 0.95,
+      "ball_x": 783.7,
+      "ball_y": 647.2,
+      "ball_speed": 18.75,
+      "direction": "up",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 6942,
+      "timestamp": 277.68,
+      "shot_type": "SMASH",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 887.2,
+      "ball_y": 621.3,
+      "ball_speed": 170.45,
+      "direction": "right",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7118,
+      "timestamp": 284.72,
+      "shot_type": "VOLLEY",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 1079.7,
+      "ball_y": 631.7,
+      "ball_speed": 39.11,
+      "direction": "right",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7354,
+      "timestamp": 294.16,
+      "shot_type": "SMASH",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 1063.6,
+      "ball_y": 615.5,
+      "ball_speed": 120.57,
+      "direction": "left",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7392,
+      "timestamp": 295.68,
+      "shot_type": "SMASH",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 942.9,
+      "ball_y": 595.5,
+      "ball_speed": 253.64,
+      "direction": "left",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7412,
+      "timestamp": 296.48,
+      "shot_type": "VOLLEY",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 918.0,
+      "ball_y": 582.8,
+      "ball_speed": 77.4,
+      "direction": "right",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7436,
+      "timestamp": 297.44,
+      "shot_type": "SMASH",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 868.6,
+      "ball_y": 528.4,
+      "ball_speed": 242.64,
+      "direction": "left",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7462,
+      "timestamp": 298.48,
+      "shot_type": "SMASH",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 940.7,
+      "ball_y": 550.4,
+      "ball_speed": 276.14,
+      "direction": "left",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7590,
+      "timestamp": 303.6,
+      "shot_type": "SMASH",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 1044.2,
+      "ball_y": 625.9,
+      "ball_speed": 48.13,
+      "direction": "left",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7610,
+      "timestamp": 304.4,
+      "shot_type": "SMASH",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 1036.0,
+      "ball_y": 610.1,
+      "ball_speed": 64.47,
+      "direction": "left",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7646,
+      "timestamp": 305.84,
+      "shot_type": "BACKHAND",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 1044.8,
+      "ball_y": 606.5,
+      "ball_speed": 46.39,
+      "direction": "right",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7672,
+      "timestamp": 306.88,
+      "shot_type": "BACKHAND",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 1058.6,
+      "ball_y": 624.0,
+      "ball_speed": 56.47,
+      "direction": "right",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7728,
+      "timestamp": 309.12,
+      "shot_type": "VOLLEY",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 1056.6,
+      "ball_y": 654.2,
+      "ball_speed": 34.54,
+      "direction": "left",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7766,
+      "timestamp": 310.64,
+      "shot_type": "SMASH",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 1039.2,
+      "ball_y": 649.0,
+      "ball_speed": 48.42,
+      "direction": "left",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 7800,
+      "timestamp": 312.0,
+      "shot_type": "SMASH",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 984.9,
+      "ball_y": 640.4,
+      "ball_speed": 93.42,
+      "direction": "left",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 8006,
+      "timestamp": 320.24,
+      "shot_type": "SMASH",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 783.4,
+      "ball_y": 667.1,
+      "ball_speed": 36.21,
+      "direction": "up",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 8070,
+      "timestamp": 322.8,
+      "shot_type": "SMASH",
+      "player_id": 144,
+      "confidence": 0.95,
+      "ball_x": 795.3,
+      "ball_y": 561.5,
+      "ball_speed": 125.97,
+      "direction": "up",
+      "player_side": "right_court"
+    },
+    {
+      "frame": 8094,
+      "timestamp": 323.76,
+      "shot_type": "BACKHAND",
+      "player_id": 144,
+      "confidence": 0.758,
+      "ball_x": 833.8,
+      "ball_y": 615.5,
+      "ball_speed": 10.34,
+      "direction": "left",
+      "player_side": "right_court"
+    }
+  ]
+}

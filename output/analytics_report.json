@@ -1,0 +1,83 @@
+{
+  "total_shots": 27,
+  "shot_counts": {
+    "SMASH": 17,
+    "VOLLEY": 5,
+    "FOREHAND": 2,
+    "BACKHAND": 3
+  },
+  "shot_percentages": {
+    "SMASH": 63.0,
+    "VOLLEY": 18.5,
+    "FOREHAND": 7.4,
+    "BACKHAND": 11.1
+  },
+  "total_bounces": 23,
+  "total_frames_processed": 8124,
+  "num_rallies": 3,
+  "avg_rally_length_frames": 118.7,
+  "player_stats": {
+    "player_13": {
+      "shot_counts": {
+        "SMASH": 1
+      },
+      "total": 1
+    },
+    "player_12": {
+      "shot_counts": {
+        "VOLLEY": 1
+      },
+      "total": 1
+    },
+    "player_59": {
+      "shot_counts": {
+        "SMASH": 1
+      },
+      "total": 1
+    },
+    "player_97": {
+      "shot_counts": {
+        "SMASH": 1
+      },
+      "total": 1
+    },
+    "player_116": {
+      "shot_counts": {
+        "FOREHAND": 1
+      },
+      "total": 1
+    },
+    "player_131": {
+      "shot_counts": {
+        "VOLLEY": 1
+      },
+      "total": 1
+    },
+    "player_137": {
+      "shot_counts": {
+        "SMASH": 2
+      },
+      "total": 2
+    },
+    "player_143": {
+      "shot_counts": {
+        "FOREHAND": 1
+      },
+      "total": 1
+    },
+    "player_146": {
+      "shot_counts": {
+        "SMASH": 1
+      },
+      "total": 1
+    },
+    "player_144": {
+      "shot_counts": {
+        "SMASH": 11,
+        "VOLLEY": 3,
+        "BACKHAND": 3
+      },
+      "total": 17
+    }
+  }
+}
