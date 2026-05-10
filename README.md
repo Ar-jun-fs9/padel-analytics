@@ -1,11 +1,9 @@
 # 🎾 Padel Game Analytics — Shot Classification System
 
-> **Layman AI · AI/ML Internship Assignment (Computer Vision & R&D Track)**
-> Fully functional prototype with stable tracking, court-aware classification, and analytics dashboard
 
 ---
 
-## 📋 Executive Summary
+##  Executive Summary
 
 This project implements a complete computer-vision pipeline for analyzing padel match footage. The system detects and tracks players + ball, classifies shot types in real-time, and outputs structured analytics.
 
@@ -21,7 +19,7 @@ This project implements a complete computer-vision pipeline for analyzing padel 
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ### High-Level Pipeline
 
@@ -78,7 +76,7 @@ This project implements a complete computer-vision pipeline for analyzing padel 
 
 ---
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 Actual numbers from demo run (synthetic 1280×720, 600 frames):
 
@@ -98,7 +96,7 @@ Actual numbers from demo run (synthetic 1280×720, 600 frames):
 
 ---
 
-## 🎯 Why These Specific Choices?
+##  Why These Specific Choices?
 
 ### Why Rule-Based Shot Classification?
 
@@ -129,7 +127,7 @@ A lightweight rule-based classifier was chosen over deep temporal models (LSTM/T
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Tool / Library | Purpose |
 |-------|---------------|---------|
@@ -144,7 +142,7 @@ A lightweight rule-based classifier was chosen over deep temporal models (LSTM/T
 
 ---
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 
@@ -155,6 +153,7 @@ A lightweight rule-based classifier was chosen over deep temporal models (LSTM/T
 ### Setup
 
 ```bash
+git clone https://github.com/Ar-jun-fs9/padel-analytics.git
 cd padel_analytics
 python -m venv venv
 # Windows:
@@ -232,7 +231,7 @@ python main.py --dashboard
 
 ---
 
-## 📤 Output Specifications
+##  Output Specifications
 
 ### JSON Output (`output/shots.json`)
 
@@ -312,7 +311,7 @@ Each frame contains:
 
 ---
 
-## 🎪 Demo Walkthrough
+##  Demo Walkthrough
 
 Running `python demo_run.py`:
 
@@ -337,7 +336,7 @@ start output\demo_annotated.mp4
 
 ---
 
-## 🐛 Failure Modes & Edge Cases
+##  Failure Modes & Edge Cases
 
 The system performs robustly on clear rally footage but has known limitations:
 
@@ -375,16 +374,16 @@ The system performs robustly on clear rally footage but has known limitations:
 
 ---
 
-## 🔍 Detection Scope Clarification
+##  Detection Scope Clarification
 
-### ✅ What We Detect
+###  What I Detect
 
 | Object | Method | COCO Class | Notes |
 |--------|--------|-----------|-------|
 | **Player** | YOLOv8n bounding box | `person` (0) | Full-body detection; works with front/back views |
 | **Ball** | YOLOv8n bounding box | `sports ball` (32) | Small object; occasionally missed in fast motion |
 
-### ❌ What We Do NOT Detect
+###  What I Do NOT Detect
 
 | Object | Why Not Detected | Alternative |
 |--------|-----------------|-------------|
@@ -392,11 +391,11 @@ The system performs robustly on clear rally footage but has known limitations:
 | **Court lines** | Not needed for shot logic | Zone heuristics use frame geometry |
 | **Net** | Not in COCO; unnecessary | Implicit via center-line zone boundary |
 
-**Important**: Racket detection was investigated but found unreliable with standard YOLOv8n. The system instead uses **ball-player spatial relationships** to infer shot type. This is explicitly called out in the assignment as acceptable (≈ "approx if needed").
+**Important**: I investigated Racket detection but found unreliable with standard YOLOv8n so currenlty the system instead uses **ball-player spatial relationships** to infer shot type.
 
 ---
 
-## 📁 File-by-File Reference
+## File-by-File Reference
 
 | File | Lines | Purpose | Key Functions |
 |------|-------|---------|---------------|
@@ -413,7 +412,7 @@ The system performs robustly on clear rally footage but has known limitations:
 
 ---
 
-## 🧪 Validation & Testing
+##  Validation & Testing
 
 ### Manual Verification Steps
 
@@ -461,7 +460,7 @@ print('[OK] Output validation passed')
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 From `requirements.txt`:
 
@@ -483,7 +482,7 @@ All dependencies installable via `pip install -r requirements.txt`.
 
 ---
 
-## 🎓 Approach Explanation (For Interview)
+## Approach Explanation 
 
 **Problem**: Analyze padel footage to classify shot types (forehand/backhand/smash).
 
@@ -499,7 +498,7 @@ All dependencies installable via `pip install -r requirements.txt`.
 
 **Why this works**: Clear separation of concerns; each module independently testable. Rule-based classifier transparent and tunable. Court zone logic handles CCTV fixed-camera geometry.
 
-**Biggest challenges**:
+**Biggest challenges I faced during development**:
 - ID switching → solved with hybrid matching + persistent side labels
 - Delayed detection → reduced smoothing + shorter velocity window
 - Side confusion → 10-frame majority vote on court zone
@@ -512,19 +511,19 @@ All dependencies installable via `pip install -r requirements.txt`.
 
 ---
 
-## ⚠️ Known Issues & TODO
+##  Known Issues & TODO
 
-- [ ] Racket detection not implemented (too small; not in COCO)
-- [ ] Left-handed players misclassified
-- [ ] No multi-camera support (single view only)
-- [ ] Ball exit-frame handling incomplete
-- [ ] No rally winner detection (point scoring logic)
-- [ ] Dashboard doesn't allow video upload (read-only)
-- [ ] GPU batch inference not utilized
+-  Racket detection not implemented (too small; not in COCO)
+-  Left-handed players misclassified
+-  No multi-camera support (single view only)
+-  Ball exit-frame handling incomplete
+-  No rally winner detection (point scoring logic)
+-  Dashboard doesn't allow video upload (read-only)
+-  GPU batch inference not utilized
 
 ---
 
-## 📚 References
+<!-- ## 📚 References
 
 - **Assignment**: [Layman AI — AI/ML Internship](https://layman.ai)
 - **YOLOv8**: https://github.com/ultralytics/ultralytics
@@ -534,4 +533,4 @@ All dependencies installable via `pip install -r requirements.txt`.
 ---
 
 *Layman AI — AI/ML Internship · May 2026*
-*Built with Python, OpenCV, YOLOv8, Flask*
+*Built with Python, OpenCV, YOLOv8, Flask* -->
