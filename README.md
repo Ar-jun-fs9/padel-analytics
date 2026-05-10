@@ -473,9 +473,6 @@ ultralytics>=8.0.0        # YOLOv8
 flask>=3.0.0              # Dashboard backend
 matplotlib>=3.7.0         # (future plotting)
 
-# Optional (not required):
-# torch>=2.0.0
-# torchvision>=0.15.0
 ```
 
 All dependencies installable via `pip install -r requirements.txt`.
