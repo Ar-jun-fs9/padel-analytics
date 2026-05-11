@@ -2,6 +2,7 @@
 
 # Padel Game Analytics — Shot Classification System
 
+</div>
 
 ---
 
@@ -10,7 +11,7 @@
 This project implements a complete computer-vision pipeline for analyzing padel match footage. The system detects and tracks players + ball, classifies shot types in real-time, and outputs structured analytics.
 
 
-</div>
+
 
 **Core capabilities:**
 - Object detection (YOLOv8) → person + sports ball
